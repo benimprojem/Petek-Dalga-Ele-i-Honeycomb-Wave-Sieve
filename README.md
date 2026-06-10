@@ -10,19 +10,19 @@ Altıgen spiralin ardışık katmanlarında, alt kenarın (Side 5) başlangıç 
 
 $$
 \begin{bmatrix}
-1^2 & 1 & 1 \\\\
-2^2 & 2 & 1 \\\\
+1^2 & 1 & 1 \\
+2^2 & 2 & 1 \\
 3^2 & 3 & 1
 \end{bmatrix}
 \begin{bmatrix}
-A \\\\
-B \\\\
+A \\
+B \\
 C
 \end{bmatrix}
 =
 \begin{bmatrix}
-19 \\\\
-53 \\\\
+19 \\
+53 \\
 103
 \end{bmatrix}
 $$
@@ -82,13 +82,13 @@ Keşfedilen ve doğruluğu test edilen kritik ritim dalga boyları ve atlama şa
 Klasik bölme testlerine ihtiyaç duymadan, sadece modüler kısıtlamaları kullanarak saf asalları ayıran küme fonksiyonu şu şekilde formülize edilmiştir:
 
 $$
-\mathcal{P}_{\text{zararli}} = \left\{ p \in \mathbb{P} \ \middle|\ \left(\frac{68}{p}\right) = 1 \right\} \cup \{5\}
+\mathcal{P}_{\text{zararli}} = \left\{ p \in \mathbb{P} \ \Big|\ \left(\frac{68}{p}\right) = 1 \right\} \cup \{5\}
 $$
 
 Belirlenen bir $M$ katman derinliğine kadar olan tüm pürüzsüz asal kümesi ($\mathcal{A}$), şu fonksiyonel süzgeçten geçerek %100 saflıkla elde edilir:
 
 $$
-\mathcal{A}(M) = \left\{ g(L) \ \middle|\ 1 \le L \le M \ \land \ \forall p \in \mathcal{P}_{\text{zararli}}^{\le \sqrt{g(M)}}, \ g(L) \not\equiv 0 \pmod p \right\}
+\mathcal{A}(M) = \left\{ g(L) \ \Big|\ 1 \le L \le M \ \land \ \forall p \in \mathcal{P}_{\text{zararli}}^{\le \sqrt{g(M)}}, \ g(L) \not\equiv 0 \pmod p \right\}
 $$
 
 Bu formülizasyon, geometrik döngülerin modüler saat mekanizmalarıyla tamamen kontrol altına alınabildiğini ve $1000$ katman derinliğine kadar hatasız çalıştığını doğrulamıştır.
